@@ -2,7 +2,8 @@
 	"scripts": {
 		"start": "wmr",
 		"build": "wmr build --prerender",
-		"serve": "wmr serve"
+		"serve": "wmr serve",
+		"postinstall": "node post-build.mjs"
 	},
 	"eslintConfig": {
 		"extends": "preact"

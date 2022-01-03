@@ -21,7 +21,8 @@ export function App() {
 const { hydrate, prerender } = withTwind({
   props: {
     className: true,
-  }
+  },
+  preflight: false,
 }, (data) => <App {...data} />);
 
 hydrate(<App />);
