@@ -1,5 +1,4 @@
-import { LocationProvider, Router } from "preact-iso/router";
-import { ErrorBoundary } from "preact-iso/lazy";
+import { ErrorBoundary, LocationProvider, Router } from "preact-iso";
 
 import withTwind from "@twind/wmr";
 
